@@ -1,4 +1,5 @@
 # portfolio-
+
 Portfólio do desenvolvedor
 
 ## Tarefas
@@ -6,7 +7,6 @@ Portfólio do desenvolvedor
 O controle das tarefas desse projeto será realizado no GitHub
 
 ## Ícones
-
 
 :package: Nova funcionalidade
 :up: Atualização

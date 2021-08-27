@@ -14,7 +14,10 @@
     --font-primary:"Baloo Da 2", serif;
     --font-secundary:"Josefin Slab", serif;
     --font-action: "Mulish", serif;
-    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 header {
@@ -181,6 +184,7 @@ header {
     top: 0;
     right: -25rem;
     transition:all 1s;
+    z-index:50;
 }
 
 .show-menu .sidebar {
@@ -573,4 +577,52 @@ header {
     padding:1rem;
     grid-column:2;
     cursor:pointer;
+}
+
+footer {
+    width:100%;
+    height:7rem;
+    background-color:#17181b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-content{
+    width:46%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family:var(--font-secundary);
+    color:#a7a7a7;
+    font-size: 1.6rem;
+}
+
+.social-list a {
+    margin:0 2rem;
+    color: #a7a7a7;
+    font-size:1.3rem;
+}
+
+.social-list ul {
+    display:flex;
+}
+
+#link-topo {
+    width:3rem;
+    height:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    right:3rem;
+    bottom:3rem;
+    color:#fff;
+    background: #7F00FF;
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);
+    background: linear-gradient(to left, #E100FF, #7F00FF);
+    box-shadow:0 0.1rem 0.6rem #00000009;
+    z-index:5;
 }
